@@ -1,0 +1,27 @@
+body{
+   background-image: url('1.png');
+   color: white;
+   text-align: center;
+   /* height: 100vh; */
+}
+
+.pics{
+   display: inline-block;
+   padding: 10px 15px;
+}
+img{
+   height: 250px;
+   width: 250px;
+}
+
+h3{
+   color: white;
+}
+
+.row a{
+   text-decoration: none;
+}
+
+.row a :hover{
+   color: skyblue;
+}
