@@ -1,5 +1,6 @@
 body{
    background-image: url('1.png');
+   background-repeat:no-repeat;
    color: white;
    text-align: center;
    /* height: 100vh; */
@@ -23,5 +24,74 @@ h3{
 }
 
 .row a :hover{
-   color: skyblue;
+   color: orangered;
+}
+
+.container1{
+   background-image: url("haran_pic.jpg");
+   height: 100vh;
+   margin: 0px;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
+   background-size: cover;
+}
+
+.container2{
+   background-image: url("vishnu_pic.png");
+   height: 100vh;
+   margin: 0px;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
+   background-size: cover;
+   
+}
+
+.container3{
+   background-image: url("bugga_pic.png");
+   height: 100vh;
+   margin: 0px;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
+   background-size: cover;
+}
+
+.container4{
+   background-image: url("Untitled\ design\ \(8\).png");
+   height: 100vh;
+   margin: 0px;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
+   background-size: cover;
+}
+
+.container1 a{
+   text-decoration: none;
+}
+.container1 a:hover{
+   color: orangered;
+}
+
+.container2 a{
+   text-decoration: none;
+}
+.container2 a:hover{
+   color: orangered;
+}
+
+.container3 a{
+   text-decoration: none;
+}
+.container3 a:hover{
+   color: orangered;
+}
+
+.container4 a{
+   text-decoration: none;
+}
+.container4 a:hover{
+   color: orangered;
 }
